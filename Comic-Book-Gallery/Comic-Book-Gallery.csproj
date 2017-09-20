@@ -97,6 +97,7 @@
     <Content Include="Images\the-amazing-spider-man-657.jpg" />
     <Content Include="Images\the-amazing-spider-man-700.jpg" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\ComicBook\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
