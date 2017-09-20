@@ -86,6 +86,16 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="Views\ComicBook\Detail.cshtml" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\site.css" />
+    <Content Include="Fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Images\bone-50.jpg" />
+    <Content Include="Images\the-amazing-spider-man-657.jpg" />
+    <Content Include="Images\the-amazing-spider-man-700.jpg" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
