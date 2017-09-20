@@ -79,6 +79,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Views\ComicBook\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -106,6 +107,7 @@
     <Compile Include="Controllers\ComicBookController.cs" />
     <Compile Include="Models\ComicBook.cs" />
     <Compile Include="Models\Artists.cs" />
+    <Compile Include="Data\ComicBookRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
