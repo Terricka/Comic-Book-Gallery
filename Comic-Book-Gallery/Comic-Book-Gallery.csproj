@@ -98,6 +98,7 @@
     <Content Include="Images\the-amazing-spider-man-700.jpg" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\ComicBook\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -109,6 +110,9 @@
     <Compile Include="Models\ComicBook.cs" />
     <Compile Include="Models\Artists.cs" />
     <Compile Include="Data\ComicBookRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\.DS_Store" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
