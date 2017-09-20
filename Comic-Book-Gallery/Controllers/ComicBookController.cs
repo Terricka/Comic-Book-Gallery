@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 
 namespace ComicBookGallery.Controllers
@@ -6,18 +8,9 @@ namespace ComicBookGallery.Controllers
     public class ComicBookController : Controller
     {
         public ActionResult Detail(){
-            if (DateTime.Today.DayOfWeek == DayOfWeek.Tuesday)
-            {
-                return Redirect("/");
-            }
-
-            return Content("Hello");
+            return View();
 
         }
 
-		public string HotWings()
-		{
-			return "Spicy";
-		}
     }
 }
